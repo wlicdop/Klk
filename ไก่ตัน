@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("รวม", "BloodTheme")
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("pvp")
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+getgenv().Key = "MARU-LXYLN-GVCQG-H24T-7PBWI-IYTI"
+getgenv().id = "1109827276343881748"
+_G.Script_Mode = "PVP"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+end)
+
+local Section = Tab:NewSection("ไก่ตัน")
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    getgenv().Key = "MARU-LXYLN-GVCQG-H24T-7PBWI-IYTI"
+getgenv().id = "1109827276343881748"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+end)
+
+local Section = Tab:NewSection("ไทย")
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    getgenv().Key = "MARU-LXYLN-GVCQG-H24T-7PBWI-IYTI"
+getgenv().id = "1109827276343881748"
+_G.Script_Language = "Thai"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+end)
+
+local Section = Tab:NewSection("redz hub")
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
+
+local Section = Tab:NewSection("unique hub")
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    shared.key = "YDOtv-e6iQW-QvLP5-9vnAo" loadstring(game:HttpGet("https://raw.githubusercontent.com/nomed-rin/UniqueMB/main/BloxFruit"))()
+end)
